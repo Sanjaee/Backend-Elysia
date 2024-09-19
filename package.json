@@ -1,0 +1,12 @@
+{
+  "scripts": {
+    "postinstall": "bun prisma generate",
+    "dev": "bun run index.ts"
+  },
+  "dependencies": {
+    "@prisma/client": "5.19.1",
+    "elysia": "^1.1.13",
+    "nodemon": "^3.1.5",
+    "prisma": "^5.19.1"
+  }
+}
